@@ -1,0 +1,113 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escuela de Cocina Mediterránea | Aprende con chefs expertos</title>
+  <meta name="description" content="Aprende cocina mediterránea con chefs profesionales. Clases presenciales y online, técnicas auténticas, productos frescos y pasión por la gastronomía.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Escuela de Cocina Mediterránea",
+    "url": "https://tusitioweb.com",
+    "logo": "https://tusitioweb.com/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Sabores 123",
+      "addressLocality": "Barcelona",
+      "addressRegion": "Cataluña",
+      "postalCode": "08001",
+      "addressCountry": "ES"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+34-123-456-789",
+      "contactType": "customer service"
+    }
+  }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="flex items-center justify-between px-6 py-4 bg-white shadow-md sticky top-0 z-50">
+    <div class="text-xl font-bold text-green-700">🍴 CocinaMed</div>
+    <nav class="space-x-4 hidden md:flex">
+      <a href="index.html" class="text-gray-700 hover:text-green-700">Inicio</a>
+      <a href="servicios.html" class="text-gray-700 hover:text-green-700">Servicios</a>
+      <a href="calendario.html" class="text-gray-700 hover:text-green-700">Calendario</a>
+      <a href="contacto.html" class="text-gray-700 hover:text-green-700">Contacto</a>
+    </nav>
+    <a href="login.html" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Acceso Usuarios</a>
+  </header>
+
+  <!-- Hero con video de fondo -->
+  <section class="relative h-[80vh] overflow-hidden">
+    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover brightness-75">
+      <source src="video/hero-cocina.mp4" type="video/mp4" />
+      Tu navegador no soporta video HTML5.
+    </video>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Descubre la Magia de la Cocina Mediterránea</h1>
+      <p class="text-lg md:text-2xl mb-6">Clases prácticas con chefs expertos. Presencial y online.</p>
+      <a href="servicios.html" class="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg text-white text-lg font-semibold">Empieza Ahora</a>
+    </div>
+  </section>
+
+  <!-- Galería optimizada SEO -->
+  <section class="py-12 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">Nuestra Cocina en Acción</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <img src="img/plato1.jpg" alt="Curso de pasta fresca italiana" class="rounded-lg shadow-md w-full h-auto" loading="lazy">
+      <img src="img/plato2.jpg" alt="Clase de tapas tradicionales españolas" class="rounded-lg shadow-md w-full h-auto" loading="lazy">
+      <img src="img/plato3.jpg" alt="Chef enseñando técnicas mediterráneas" class="rounded-lg shadow-md w-full h-auto" loading="lazy">
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section class="bg-gray-50 py-12 px-6">
+    <h2 class="text-3xl font-bold text-center mb-8">¿Por Qué Elegirnos?</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h3 class="font-semibold text-xl mb-2">Chefs con Experiencia</h3>
+        <p>Más de 15 años formando amantes de la cocina en toda Europa.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h3 class="font-semibold text-xl mb-2">Cursos Flexibles</h3>
+        <p>Clases presenciales y online, adaptadas a tu ritmo y nivel.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h3 class="font-semibold text-xl mb-2">Recetas Auténticas</h3>
+        <p>Aprende platos clásicos con ingredientes frescos y técnicas locales.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Llamado a la acción -->
+  <section class="bg-green-600 text-white py-12 text-center px-6">
+    <h2 class="text-3xl font-bold mb-4">Inscríbete Hoy y Transforma tu Forma de Cocinar</h2>
+    <p class="mb-6 text-lg">Plazas limitadas para nuestros cursos presenciales. Reserva ahora.</p>
+    <a href="contacto.html" class="bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100">Contáctanos</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 text-sm py-6 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2025 CocinaMed. Todos los derechos reservados.</p>
+      <div class="space-x-4 mt-2 md:mt-0">
+        <a href="politica.html" class="hover:underline">Política de Privacidad</a>
+        <a href="mapa.html" class="hover:underline">Ubicación</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
